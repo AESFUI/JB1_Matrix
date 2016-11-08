@@ -4,8 +4,8 @@ import java.util.Scanner;
  * Created by Andrey Sadriev aka AESFUI on 05.11.2016.
  */
 public class Matrix {
-    /*
-    Метод транспонирования матрицы
+    /**
+     * Метод транспонирования матрицы
      */
     public static int[][] matrixTransp() {
         int[][] matrixIn = enteringMatrix();
@@ -29,8 +29,8 @@ public class Matrix {
         return matrixOut;
     }
 
-    /*
-    Метод умножения матриц
+    /**
+     * Метод умножения матриц
      */
     public static void matrixMulti() {
         int[][] matrixA = enteringMatrix();
